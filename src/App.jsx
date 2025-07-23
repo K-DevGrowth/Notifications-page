@@ -5,11 +5,7 @@ const infomations = [
     id: 0,
     text: (
       <div className="flex items-center gap-x-2 bg-[var(--Navy-50)] px-4 py-2">
-        <img
-          className="w-10 h-10"
-          src="/avatar-mark-webber.webp"
-          alt=""
-        />
+        <img className="w-10 h-10" src="/avatar-mark-webber.webp" alt="" />
         <div>
           <p>
             <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
@@ -31,11 +27,7 @@ const infomations = [
     text: (
       <>
         <div className="flex items-center gap-x-2 px-4 py-2 bg-[var(--Navy-50)]">
-          <img
-            className="w-10 h-10"
-            src="/avatar-angela-gray.webp"
-            alt=""
-          />
+          <img className="w-10 h-10" src="/avatar-angela-gray.webp" alt="" />
           <div>
             <p>
               <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
@@ -55,11 +47,7 @@ const infomations = [
     text: (
       <>
         <div className="flex items-center gap-x-2 px-4 py-2 bg-[var(--Navy-50)]">
-          <img
-            className="w-10 h-10"
-            src="/avatar-jacob-thompson.webp"
-            alt=""
-          />
+          <img className="w-10 h-10" src="/avatar-jacob-thompson.webp" alt="" />
           <div>
             <p>
               <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
@@ -168,11 +156,7 @@ const infomations = [
     text: (
       <>
         <div className="flex items-center gap-x-2 px-4 py-2">
-          <img
-            className="w-10 h-10"
-            src="/avatar-anna-kim.webp"
-            alt=""
-          />
+          <img className="w-10 h-10" src="/avatar-anna-kim.webp" alt="" />
           <div>
             <p>
               <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
@@ -191,24 +175,30 @@ const infomations = [
   },
 ];
 
-
 const App = () => {
   return (
-    <div className="max-w-[700px]  mx-auto mt-5 bg-[var(--White)] shadow-md p-4">
-      <div className="flex justify-between items-center">
-        <div className="flex gap-x-2 items-center">
-          <h2 className="text-2xl font-semibold text-[var(--Navy-950)]">
-            Notifications
-          </h2>
-          <span className="w-8 h-6 bg-[var(--Blue-950)] rounded-md text-white font-semibold text-center">
-            3
-          </span>
+    <div className="relative h-dvh w-screen overflow-x-hidden flex items-center">
+      <div className="max-w-[700px] mx-auto bg-[var(--White)] shadow-md p-4">
+        <div className="flex justify-between items-center">
+          <div className="flex gap-x-2 items-center">
+            <h2 className="text-2xl font-semibold text-[var(--Navy-950)]">
+              Notifications
+            </h2>
+            <span className="w-8 h-6 bg-[var(--Blue-950)] rounded-md text-white font-semibold text-center">
+              3
+            </span>
+          </div>
+          <button
+            type="button"
+            className="hover:text-[var(--Blue-950)] cursor-pointer"
+          >
+            Mask all as read
+          </button>
         </div>
-        <button type="button" className="hover:text-[var(--Blue-950)] cursor-pointer">Mask all as read</button>
+        {infomations.map((user) => (
+          <NotificationsUser key={user.id} text={user.text} />
+        ))}
       </div>
-      {infomations.map((user) => (
-        <NotificationsUser key={user.id} text={user.text} />
-      ))}
     </div>
   );
 };
