@@ -16,6 +16,6 @@
 
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
-    background-color: var(--Navy-50);
-    color: var(--Gray-600);
+    background-color: var(--color-Navy-50);
+    color: var(--color-Gray-600);
 }
