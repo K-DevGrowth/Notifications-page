@@ -3,15 +3,15 @@
 @import "tailwindcss";
 
 @theme {
-    --Red-500: hsl(1, 90%, 64%);
-    --Blue-950: hsl(219, 85%, 26%);
-    --White: hsl(0, 100%, 100%);
-    --Navy-50: hsl(210, 60%, 98%);
-    --Blue-100: hsl(211, 68%, 94%);
-    --Navy-100: hsl(205, 33%, 90%);
-    --Gray-500: hsl(219, 14%, 63%);
-    --Gray-600: hsl(219, 12%, 42%);
-    --Navy-950: hsl(224, 21%, 14%);
+    --color-Red-500: hsl(1, 90%, 64%);
+    --color-Blue-950: hsl(219, 85%, 26%);
+    --color-White: hsl(0, 100%, 100%);
+    --color-Navy-50: hsl(210, 60%, 98%);
+    --color-Blue-100: hsl(211, 68%, 94%);
+    --color-Navy-100: hsl(205, 33%, 90%);
+    --color-Gray-500: hsl(219, 14%, 63%);
+    --color-Gray-600: hsl(219, 12%, 42%);
+    --color-Navy-950: hsl(224, 21%, 14%);
 }
 
 body {
