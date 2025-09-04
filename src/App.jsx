@@ -4,18 +4,18 @@ const infomations = [
   {
     id: 0,
     text: (
-      <div className="flex items-center gap-x-2 bg-[var(--Navy-50)] px-4 py-2">
+      <div className="flex items-center gap-x-2 bg-Navy-50 px-4 py-2">
         <img className="w-10 h-10" src="/avatar-mark-webber.webp" alt="" />
         <div>
           <p>
-            <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+            <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
               Mark Webber
             </span>{" "}
             <span>reacted to your recent post</span>{" "}
-            <span className="font-semibold hover:text-[var(--Blue-950)] cursor-pointer">
+            <span className="font-semibold hover:text-Blue-950 cursor-pointer">
               My first tournament today!
             </span>{" "}
-            <span className="bg-[var(--Red-500)] w-2 h-2 inline-block rounded-full"></span>
+            <span className="bg-Red-500 w-2 h-2 inline-block rounded-full"></span>
           </p>
           <p>1m ago</p>
         </div>
@@ -26,15 +26,15 @@ const infomations = [
     id: 1,
     text: (
       <>
-        <div className="flex items-center gap-x-2 px-4 py-2 bg-[var(--Navy-50)]">
+        <div className="flex items-center gap-x-2 px-4 py-2 bg-Navy-50">
           <img className="w-10 h-10" src="/avatar-angela-gray.webp" alt="" />
           <div>
             <p>
-              <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+              <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
                 Angela Gray
               </span>{" "}
               <span>followed you</span>{" "}
-              <span className="bg-[var(--Red-500)] w-2 h-2 inline-block rounded-full"></span>
+              <span className="bg-Red-500 w-2 h-2 inline-block rounded-full"></span>
             </p>
             <p>5m ago</p>
           </div>
@@ -46,18 +46,18 @@ const infomations = [
     id: 2,
     text: (
       <>
-        <div className="flex items-center gap-x-2 px-4 py-2 bg-[var(--Navy-50)]">
+        <div className="flex items-center gap-x-2 px-4 py-2 bg-Navy-50">
           <img className="w-10 h-10" src="/avatar-jacob-thompson.webp" alt="" />
           <div>
             <p>
-              <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+              <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
                 Jacob Thompson
               </span>{" "}
               <span>has joined your group</span>{" "}
-              <span className="text-[var(--Blue-950)] font-bold">
+              <span className="text-Blue-950 font-bold">
                 Chess Club
               </span>{" "}
-              <span className="bg-[var(--Red-500)] w-2 h-2 inline-block rounded-full"></span>
+              <span className="bg-Red-500 w-2 h-2 inline-block rounded-full"></span>
             </p>
             <p>1 day ago</p>
           </div>
@@ -77,7 +77,7 @@ const infomations = [
           />
           <div>
             <p>
-              <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+              <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
                 Rizky Hasanuddin
               </span>{" "}
               <span>sent you a private message</span>
@@ -85,7 +85,7 @@ const infomations = [
             <p>5 days ago</p>
           </div>
         </div>
-        <div className="border-1 rounded-md p-2 mx-13 hover:bg-[var(--Blue-100)] cursor-pointer">
+        <div className="border-1 rounded-md p-2 mx-13 hover:bg-Blue-100 cursor-pointer">
           <p>
             Hello, thanks for setting up the Chess Club. I've been a member for
             a few weeks now and I'm already having lots of fun and improving my
@@ -108,7 +108,7 @@ const infomations = [
             />
             <div>
               <p>
-                <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+                <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
                   Kimberly Smith
                 </span>{" "}
                 <span>commented on your picture</span>
@@ -117,7 +117,7 @@ const infomations = [
             </div>
           </div>
           <img
-            className="w-10 h-10 mr-13 hover:ring-3 rounded-md ring-[var(--Blue-100)] cursor-pointer"
+            className="w-10 h-10 mr-13 hover:ring-3 rounded-md ring-Blue-100 cursor-pointer"
             src="/image-chess.webp"
             alt=""
           />
@@ -137,11 +137,11 @@ const infomations = [
           />
           <div>
             <p>
-              <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+              <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
                 Nathan Peterson
               </span>{" "}
               <span>reacted to your recent post</span>{" "}
-              <span className="font-semibold hover:text-[var(--Blue-950)] cursor-pointer">
+              <span className="font-semibold hover:text-Blue-950 cursor-pointer">
                 5 end-game strategies to increase your win rate
               </span>
             </p>
@@ -159,11 +159,11 @@ const infomations = [
           <img className="w-10 h-10" src="/avatar-anna-kim.webp" alt="" />
           <div>
             <p>
-              <span className="font-bold hover:text-[var(--Blue-950)] cursor-pointer text-[var(--Navy-950)]">
+              <span className="font-bold hover:text-Blue-950 cursor-pointer text-Navy-950">
                 Anna Kim
               </span>{" "}
               <span>left the group</span>{" "}
-              <span className="text-[var(--Blue-950)] font-bold">
+              <span className="text-Blue-950 font-bold">
                 Chess Club
               </span>
             </p>
@@ -177,20 +177,20 @@ const infomations = [
 
 const App = () => {
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden flex items-center">
-      <div className="max-w-[700px] mx-auto bg-[var(--White)] shadow-md p-4">
+    <main className="relative h-dvh w-screen overflow-x-hidden flex items-center">
+      <div className="max-w-[700px] mx-auto bg-White shadow-md p-4">
         <div className="flex justify-between items-center">
           <div className="flex gap-x-2 items-center">
-            <h2 className="text-2xl font-semibold text-[var(--Navy-950)]">
+            <h1 className="text-2xl font-semibold text-Navy-950">
               Notifications
-            </h2>
-            <span className="w-8 h-6 bg-[var(--Blue-950)] rounded-md text-white font-semibold text-center">
+            </h1>
+            <span className="w-8 h-6 bg-Blue-950 rounded-md text-white font-semibold text-center">
               3
             </span>
           </div>
           <button
             type="button"
-            className="hover:text-[var(--Blue-950)] cursor-pointer"
+            className="hover:text-Blue-950 cursor-pointer"
           >
             Mask all as read
           </button>
@@ -199,7 +199,7 @@ const App = () => {
           <NotificationsUser key={user.id} text={user.text} />
         ))}
       </div>
-    </div>
+    </main>
   );
 };
 
