@@ -87,8 +87,8 @@ const infomations = [
         </div>
         <div className="border-1 rounded-md p-2 mx-13 hover:bg-Blue-100 cursor-pointer">
           <p>
-            Hello, thanks for setting up the Chess Club. I've been a member for
-            a few weeks now and I'm already having lots of fun and improving my
+            Hello, thanks for setting up the Chess Club. I&apos;ve been a member for
+            a few weeks now and I&apos;m already having lots of fun and improving my
             game.
           </p>
         </div>
